@@ -80,3 +80,8 @@ h3.glass2 {
   padding: 20px; /* add some padding for a nicer look */
   color: #3b312b; /* dark text color */
 }
+
+.warning {
+  background: rgba(255, 0, 0, 0.2); /* translucent red background */
+  color: white
+}

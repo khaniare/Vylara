@@ -4,6 +4,33 @@
   "jsxSingleQuote": false,
   "trailingComma": "all",
   "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "useTabs": false,
+  "htmlWhitespaceSensitivity": "css",
+  "quoteProps": "as-needed",
+  "embeddedLanguageFormatting": "auto",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.jsx",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
 }

@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 function Blog() {
   const [text, setText] = useState(
     <h1>
       <pre> </pre>
-      <span style={{ fontSize: "0.8em", fontWeight: "300", color: "#999" }}>
+      <span style={{ fontSize: '0.8em', fontWeight: '300', color: '#999' }}>
         Welcome to...
         <br />
       </span>
       <b
         style={{
-          fontSize: "5em",
-          fontWeight: "600",
-          background: "linear-gradient(to right, #b7d8c3, #bdd4c5, #444444)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          marginLeft: "0.5em",
+          fontSize: '5em',
+          fontWeight: '600',
+          background: 'linear-gradient(to right, #b7d8c3, #bdd4c5, #444444)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          marginLeft: '0.5em',
         }}
       >
         Vylara
@@ -26,12 +26,12 @@ function Blog() {
   const handleClick = () => {
     setText(
       <h3 className="glass">
-        <span style={{ fontSize: "1em", fontWeight: "600", color: "#999" }}>
+        <span style={{ fontSize: '1em', fontWeight: '600', color: '#999' }}>
           C1: Knowing why you're here!
         </span>
 
         <p>
-          <span style={{ fontSize: "1em", fontWeight: "300", color: "#999" }}>
+          <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
             These are the devices that YOU can optimze, linux optimization will
             be here later.
           </span>
@@ -85,8 +85,7 @@ function Blog() {
         </svg>
 
         <p>
-          
-          <span style={{ fontSize: "1em", fontWeight: "300", color: "#999" }}>
+          <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
             Use control + F and search one of the following...
           </span>
         </p>
@@ -98,22 +97,94 @@ function Blog() {
         </ul>
 
         <h3 className="glass2">
-          <span style={{ fontSize: "1em", fontWeight: "600", color: "#999" }}>
-
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
-
-          
-            
+          <span style={{ fontSize: '1em', fontWeight: '600', color: '#999' }}>
             Windows/
           </span>
           <p>
-            <span style={{ fontSize: "1em", fontWeight: "300", color: "#999" }}>
-          So, your laptop, computer, pc—whatever it is—is slow. hm. We got u!
+            <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
+              So, your laptop, computer, pc—whatever it is—is slow. hm. We got
+              u! First thing we need to realize is the operating system your
+              using. Are you using Windows Home/Pro? get out of there. Use
+              Windows LoT Enterprise or make your own ISO. This will give you
+              the following advantages:
+              <br></br>
+              <br></br>• Faster System Overall <br></br>• Faster Boot time
+              <br></br>• More FPS <br></br>• Tracking from Microsoft is mostly
+              gone! <br></br>• Bloatware is gone! <br></br>
+              <br></br>
+              If you don't want to have to worry about moving to a whole
+              different ISO, you can use a debloater.
+              <a href="https://github.com/Sophia-Community/SophiApp?tab=readme-ov-file#installation">
+                ‎ ㅤㅤㅤㅤSophiAppㅤ ㅤ
+              </a>
+              is a good debloater. It's really recommended to change your
+              bloatware-full OS to a different one. Here are the steps to
+              download a debloated version of Windows,
+              <br></br> <br></br>
+              1. Download Windows LoT Enterprise from the web,
+              <a href="https://massgrave.dev/genuine-installation-media">
+                here's one!
+              </a>
+              <br></br> <br></br>
+              2. use <a href="https://rufus.ie/en/">Rufus</a> to
+              <a href="https://www.youtube.com/watch?v=moQvyVmLkIo">
+                create a bootable USB
+              </a>
+              <br></br> <br></br>
+              3. When Rufus is done, do not take out the USB. You can exit out
+              of the Rufus app though! Search up on how to disable secure boot
+              and go to your bios menu for your computer, PC, etc.
+              <br></br> <br></br>
+              <span className="warning">
+                
+                From here on out, data from your computer could be wiped. Back
+                up your data to the cloud if you want to get your
+                downloads/pictures/etc back!!!
+              </span>
             </span>
+            <p>
+              <span
+                style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}
+              >
+                4. Boot up your USB. We'll use the image below as reference for
+                this guide, 𝘺𝘰𝘶𝘳 𝘤𝘰𝘮𝘱𝘶𝘵𝘦𝘳 𝘮𝘢𝘺 𝘩𝘢𝘷𝘦 𝘢 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘵 𝘉𝘐𝘖𝘚.
+                <br></br>
+                <br></br>
+                <img
+                  src="https://media.discordapp.net/attachments/741347063077535874/1246543464834011217/IMG_2158.jpg?ex=66899891&is=66884711&hm=a66b7213a717ee3e83cc50f7aa4c9811cd9f3da3b53c5f0aa68e752fe40323a9&=&format=webp&width=500&height=375"
+                  alt="One of the many boot screens..."
+                ></img>
+                <br></br>
+                <br></br>
+                5. According to the picture above, for me, all I need to do is
+                press F5 to reorder USB FDD to the first slot! 𝘺𝘰𝘶𝘳 𝘤𝘰𝘮𝘱𝘶𝘵𝘦𝘳 𝘮𝘢𝘺
+                𝘩𝘢𝘷𝘦 𝘢 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘵 𝘉𝘐𝘖𝘚, 𝘥𝘰 𝘯𝘰𝘵𝘦!
+                <br></br>
+                <br></br>
+                6. Once the USB is booted follow the windows setup guide as
+                normal until you get here. Click Custom: Install windows only
+                (advanced) ⤵<br></br>
+                <br></br>
+                <img
+                  src="src/assets/winsetup.PNG"
+                  alt="One of the many boot screens..."
+                ></img>
+                <br></br>
+                <br></br>
+                Then, when your at "where to install Windows?" Delete everything
+                and select unallocated space then next. <br></br> <br></br>•
+                When it tells you to enter a WIndows key, you can always skip if
+                you dont have one. <br></br> <br></br>• When it ask for a
+                education email, keep your gmail, enter, and then pick use your
+                personal email. <br></br> <br></br>• Turn of all everything at
+                the "Choose privacy settings for your device" step. You will not
+                𝙣𝙚𝙚𝙙 any of it and it's just extra processes! <br></br>
+                <br></br>
+                ㅤㅤㅤㅤ ㅤ ㅤ ㅤㅤ ㅤNow your set! You now have a debloated
+                version of Windows downloaded on your system! There is still
+                more to go through so scroll down!
+              </span>
+            </p>
           </p>
         </h3>
       </h3>,
@@ -121,10 +192,10 @@ function Blog() {
   };
 
   useEffect(() => {
-    document.addEventListener("click", handleClick);
+    document.addEventListener('click', handleClick);
 
     return () => {
-      document.removeEventListener("click", handleClick);
+      document.removeEventListener('click', handleClick);
     };
   }, []);
 
