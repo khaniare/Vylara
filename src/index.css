@@ -17,9 +17,11 @@ a {
   color: #66d9ef;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #4bcffa;
 }
+
 body {
   margin: 0;
   display: flex;
@@ -58,6 +60,10 @@ p {
   margin-left: 1.5em;
 }
 
+p.white {
+color: white, 
+}
+
 h3.glass {
   background: rgba(59, 49, 43, 0.2); /* translucent brownish background */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
@@ -65,4 +71,12 @@ h3.glass {
   border-radius: 10px; /* rounded corners */
   padding: 20px; /* add some padding for a nicer look */
   color: #f7f7f7; /* light text color */
+}
+h3.glass2 {
+  background: rgba(237, 221, 202, 0.2); /* lighter brownish background */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* subtle white shadow */
+  backdrop-filter: blur(10px); /* blurred background */
+  border-radius: 10px; /* rounded corners */
+  padding: 20px; /* add some padding for a nicer look */
+  color: #3b312b; /* dark text color */
 }
