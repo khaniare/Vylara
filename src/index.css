@@ -58,3 +58,11 @@ p {
   margin-left: 1.5em;
 }
 
+h3.glass {
+  background: rgba(59, 49, 43, 0.2); /* translucent brownish background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  backdrop-filter: blur(10px); /* blurred background */
+  border-radius: 10px; /* rounded corners */
+  padding: 20px; /* add some padding for a nicer look */
+  color: #f7f7f7; /* light text color */
+}
