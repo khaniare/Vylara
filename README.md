@@ -29,8 +29,8 @@ If you go online, you may end up on a scam site. Here at Vylara, we ensure you 1
  contributions needed!
   Vylara needs the following improvments:
  
- router-dom for redirects to work 
- orginization in code
+ router-dom for redirects to work instead of CTRL + F.
+ organization in code
 
  pull requests would be accepted if it fixes one of the following improvments!
 </pre>
