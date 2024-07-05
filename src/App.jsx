@@ -123,12 +123,13 @@ function Blog() {
               <br></br> <br></br>
               1. Download Windows LoT Enterprise from the web,
               <a href="https://massgrave.dev/genuine-installation-media">
-                here's one!
+                ‎ here's one!
               </a>
               <br></br> <br></br>
-              2. use <a href="https://rufus.ie/en/">Rufus</a> to
+              2. use <a href="https://rufus.ie/en/"> Rufus</a> to
               <a href="https://www.youtube.com/watch?v=moQvyVmLkIo">
-                create a bootable USB
+                {' '}
+                ‎create a bootable USB
               </a>
               <br></br> <br></br>
               3. When Rufus is done, do not take out the USB. You can exit out
@@ -136,7 +137,6 @@ function Blog() {
               and go to your bios menu for your computer, PC, etc.
               <br></br> <br></br>
               <span className="warning">
-                
                 From here on out, data from your computer could be wiped. Back
                 up your data to the cloud if you want to get your
                 downloads/pictures/etc back!!!
