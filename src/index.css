@@ -81,5 +81,6 @@ h3.glass2 {
 
 .warning {
   background: rgba(255, 0, 0, 0.2); /* translucent red background */
-  color: white
+  font-weight: 100;
+  color: white;
 }
