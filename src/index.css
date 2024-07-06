@@ -25,10 +25,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around; /* testing: put this back to center after some time.*/
   align-items: center;
-  min-width: flex;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 
@@ -58,10 +58,8 @@ button:focus-visible {
 
 p {
   margin-left: 1.5em;
-}
+   color: '#999'
 
-p.white {
-color: white, 
 }
 
 h3.glass {

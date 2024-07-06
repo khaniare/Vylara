@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 function Blog() {
+
+  
   const [text, setText] = useState(
     <h1>
       <pre> </pre>
@@ -166,8 +168,8 @@ function Blog() {
                 (advanced) ⤵<br></br>
                 <br></br>
                 <img
-                  src="src/assets/winsetup.PNG"
-                  alt="One of the many boot screens..."
+                  src="/src/assets/winsetup.PNG"
+                  alt="picture did not load, error. "
                 ></img>
                 <br></br>
                 <br></br>
@@ -185,6 +187,61 @@ function Blog() {
                 more to go through so scroll down!
               </span>
             </p>
+              <h3 className="glass2">
+          <span style={{ fontSize: '1em', fontWeight: '600', color: '#999' }}>
+            C2: Operating System, What do I need to do? 
+          </span>
+          </h3>
+          <p>
+          <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
+          Before downloading apps, you may want to download these files, they remove common errors such as the following... 
+          <br></br><br></br>
+          • MSVCP100.dll is missing<br></br>
+• MSVCP140.dll is missing<br></br>
+• MSVCP110.dll is missing<br></br>
+• The program can't start because MSVCP.dll is missing<br></br>
+• MSVCP120.dll is missing<br></br>
+• MSVCP90.dll is missing<br></br>
+• MSVCP71.dll is missing<br></br>
+• MSVCP60.dll is missing<br></br>
+• MSVCP140d.dll is missing<br></br>
+• MSVCP110d.dll is missing<br></br>
+• MSVCP100d.dll is missing<br></br>
+• MSVCP120d.dll is missing<br></br>
+• MSVCP90d.dll is missing<br></br>
+• MSVCP71d.dll is missing<br></br>
+• MSVCP60d.dll is missing<br></br>
+• The procedure entry point _could_not_find_entry_point could not be located in the dynamic link library MSVCP.dll<br></br>
+• The procedure entry point _get_invalid_parameter_handler could not be located in the dynamic link library MSVCP.dll<br></br>
+• The procedure entry point _set_invalid_parameter_handler could not be located in the dynamic link library MSVCP.dll<br></br>
+• MSVCP.dll is not a valid Windows image<br></br>
+• MSVCP.dll is either not designed to run on Windows or it contains an error<br></br>
+
+<br></br><br></br>
+
+to fix all these errors you have to download, <a href="https://github.com/abbodi1406/vcredist/releases">this! ‎ </a>
+This will download all the Microsoft Microsoft Visual C++ Redistributable Packs. 
+          </span>
+
+          <h3 className="glass2">
+          <span style={{ fontSize: '1em', fontWeight: '600', color: '#999' }}>
+            C2.5: Operating System, Mouse Optimization. 
+          </span>
+          </h3>
+          <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
+          Your mouse needs to be snappy and good to get the best out of it. We recommend to watch this video from Youtuber, Panjno.
+           <br></br>
+           <br></br>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/phWz_k2P_S4?si=-oxDSL9i5dq_XfIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </span>
+
+              <h3 className="glass2">
+          <span style={{ fontSize: '1em', fontWeight: '400', color: '#8B9467' }}>
+
+          You've finally done it! Optimization for Windows is complete and you now officially possess a snappy Windows device that's ready to take on any task!          </span>
+          </h3>
+
+           </p>
           </p>
         </h3>
       </h3>,
