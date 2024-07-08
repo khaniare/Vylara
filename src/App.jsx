@@ -291,49 +291,48 @@ function Blog() {
               attempting to jailbreak it.<br></br>
               <br></br>
             </span>
+            <span
+              style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}
+            ></span>
+            <h3 className="glass2">
+              <span
+                style={{ fontSize: '1em', fontWeight: '600', color: '#999' }}
+              >
+                C2.5: IOS, Settings Optimization!
+              </span>
+            </h3>
             <span style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}>
-              Jailbreaking can give you many things Apple didn't want to give to
-              users. To keep it in a nutshell, full on privillage to do whatever
-              you want on your IOS device. We'll be using a jailbreaking
-              technique to help you get tweaks and sideloading!<br></br>
+              1. Go to the Settings app and navigate to General {'>'}{' '}
+              Accessibility {'>'} Reduce Motion. Turn on the Reduce Motion
+              toggle to speed up animations.<br></br>
               <br></br>
-              Thing is, all you need to do is to go to{' '}
-              <a href="https://ios.cfw.guide">ios.cfw.guide</a> and follow their
-              steps.<br></br>
+              2. Still in the Settings app, go to General {'>'} Background App
+              Refresh. Turn off Background App Refresh for any apps that you
+              don't need to run in the background.<br></br>
               <br></br>
-              Once you jailbroke your device, open your
-              <a href="https://ios.cfw.guide/package-managers/">
-                {' '}
-                package manager{' '}
-              </a>
-              and keep these sources,{' '}
-              <a href="https://poomsmart.github.io/repo/">
-                Poomsmart's Repo and{' '}
-              </a>
-              <a href="https://cydia.akemi.ai/">Karen's repo </a>
+              3. In the Settings app, go to General {'>'} Storage & iCloud Usage{' '}
+              {'>'} Manage Storage. Review the list of apps and delete any that
+              you no longer need or use.<br></br>
               <br></br>
+              4. Go to the Settings app and navigate to General {'>'} Reset.
+              Select "Reset All Settings" to restore your device's settings to
+              their default values, which can help improve performance.<br></br>
               <br></br>
-              From Poomsmart's repo download these tweaks, <br></br>
-              <br></br>• Battery Health Enabler<br></br>• CAHighFPS<br></br>•
-              HighGraphics<br></br>
+              5. Still in the Settings app, go to General {'>'} About {'>'}{' '}
+              Diagnostic & Usage Data. Select "Don't Send" to disable diagnostic
+              data collection, which can help improve performance.<br></br>
               <br></br>
-              and anything else that looks interesting to you. This repo is
-              trustable so don't worry, you can always uninstall these packages
-              later! side note, press restart springboard later... press it
-              after you install the packages below...
+              6. In the Settings app, go to General {'>'} Location Services{' '}
+              {'>'} System Services. Turn off any location services that you
+              don't need, such as Location-Based Alerts or Share My Location.
               <br></br>
               <br></br>
-              From Karen's Repo, download these tweaks, <br></br>
-              <br></br>• Battery Health Enabler<br></br>• CAHighFPS<br></br>•
-              HighGraphics<br></br>
+              7. Go to the Settings app and navigate to General {'>'} Siri &
+              Search. Turn off any Siri Suggestions or Search features that you
+              don't need or use.<br></br>
               <br></br>
-              If any of thess repos are down, or you cant find the tweaks from
-              it, you can always go to
-              <a href="https://discord.com/invite/JB"> r/jailbreak </a>for help
-              or just skip them and try again later.<br></br>
-              <br></br>
-              Your done, but as always. There are still more ways to make your
-              device better!
+              This should decrease battery drain and help your phone become more
+              efficiant!
             </span>
           </p>
         </h3>
