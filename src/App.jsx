@@ -236,7 +236,8 @@ function Blog() {
                 style={{ fontSize: '1em', fontWeight: '300', color: '#999' }}
               >
                 Your mouse needs to be snappy and good to get the best out of
-                it. We recommend to watch this video from Youtuber, Panjno.
+                it. We recommend to watch this video from Youtuber, Panjno. (and
+                also, this isn't just for gaming!)
                 <br></br>
                 <br></br>
                 <iframe
@@ -249,8 +250,21 @@ function Blog() {
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
+                <br></br>
+                For full optimizations, we recommend to use this tutorial:
+                <br></br>
+                <br></br>
               </span>
-
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/iBiNfa32AnE?si=28OFfVZJRogrLTG4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
               <h3 className="glass2">
                 <span
                   style={{
